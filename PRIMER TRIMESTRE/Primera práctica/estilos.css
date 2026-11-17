@@ -1,0 +1,16 @@
+header, header table {
+  width: 100%;
+}
+
+nav, nav table{
+    width: 100%;
+}
+
+table {
+  width: 73%;
+  margin: 0 auto; /* Esto centra los cuadros en la pantalla */
+}
+
+iframe {
+  width: 90%;
+}

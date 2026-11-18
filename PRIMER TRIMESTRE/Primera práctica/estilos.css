@@ -1,10 +1,10 @@
-body {
+body{
   font-family: Arial, sans-serif;
   margin: 10px;
 }
 
-header {
-  background-color: rgb(62, 62, 206);
+header{
+  background-color: rgb(63, 63, 153);
   color: white;
   text-align: center;
   padding: 15px;
@@ -12,8 +12,8 @@ header {
   margin-bottom: 10px;
 }
 
-nav {
-  background-color: #3a78b5;
+nav{
+  background-color: rgb(62, 62, 206);
   color: white;
   text-align: center;
   padding: 12px;
@@ -21,14 +21,14 @@ nav {
   margin-bottom: 10px;
 }
 
-nav a {
+nav a{
   color: white;
   text-decoration: none;
   font-weight: bold;
 }
 
 footer{
-  background-color: rgb(62, 62, 206);
+  background-color: rgb(63, 63, 153);
   color: white;
   text-align: center;
   padding: 5px;

@@ -1,16 +1,36 @@
-header, header table {
-  width: 100%;
+body {
+  font-family: Arial, sans-serif;
+  margin: 10px;
 }
 
-nav, nav table{
-    width: 100%;
+header {
+  background-color: rgb(62, 62, 206);
+  color: white;
+  text-align: center;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 10px;
 }
 
-table {
-  width: 73%;
-  margin: 0 auto; /* Esto centra los cuadros en la pantalla */
+nav {
+  background-color: #3a78b5;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  border-radius: 8px;
+  margin-bottom: 10px;
 }
 
-iframe {
-  width: 90%;
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer{
+  background-color: rgb(62, 62, 206);
+  color: white;
+  text-align: center;
+  padding: 5px;
+  border-radius: 8px;
 }

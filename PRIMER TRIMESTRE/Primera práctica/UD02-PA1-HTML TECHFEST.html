@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Primer ejercicio HTML Diseño</title>
-    
     <link rel="stylesheet" type="text/css" href="estilos.css">
 </head>
 
@@ -20,108 +19,69 @@
         <a href="entradas.html">Entradas</a> |
         <a href="contacto.html">Contacto</a>
     </nav>
-    <br>
 
-    <main>
-        <section>
-            <table border="10">
-            <tr>    
-                <th> 
-                    <h3>Sea bienvenido a la feria Automobile Barcelona.</h3>
+    <div class="contenido">
+        <main>
+            <h3>Sea bienvenido a la feria Automobile Barcelona.</h3>
+            <p><time datetime="2026-11-05">Apertura: 5 de Noviembre de 2026 · 11:25 AM</time></p>
 
-                    <p><time datetime="2026-11-05">Apertura: 5 de Noviembre de 2026 · 11:25 AM</time></p>
+            <figure>
+                <img src="automobileBarcelona.jpg" alt="Imagen de la feria Automobile Barcelona" width="400">
+            </figure>
 
-                    <img src="automobileBarcelona.jpg" alt="Imagen de la feria Automobile Barcelona" width="400">  
+            <section>
+                <h2>Nuestras actividades</h2>
+                <details name="acordeon" open>
+                    <summary>Primera actividad</summary>
+                    <div>Guia por toda la feria para poder ver cada vehículo.</div>
+                </details>
+                <details name="acordeon2">
+                    <summary>Segunda actividad</summary>
+                    <div>Poder montar en el vehículo que más guste a cada persona.</div>
+                </details>
+                <details name="acordeon3">
+                    <summary>Tercera actividad</summary>
+                    <div>Conducir uno de los vehículos elegidos para pruebas.</div>
+                </details>
+            </section>
 
-                    <tr>
-                        <th>
-                            <h2>Nuestras actividades</h2>
-                            <details name="acordeon" open>
-                                <summary>Primera actividad</summary>
-                                <div>
-                                Guia por toda la feria para poder ver cada vehículo.
-                                </div>
-                            </details>
+            <section>
+                <h2>Entradas · Precios</h2>
+                <p>Indique su elección:</p>
+                <label>
+                    <input type="radio" name="eleccion" value="entradaIndividual">
+                    Entrada individual - 10,80€
+                </label>
+                <br>
+                <label>
+                    <input type="radio" name="eleccion" value="entradaGrupal">
+                    Entrada grupal (2 personas) - 15,78€ (7,89€ por cabeza)
+                </label>
+            </section>
 
-                            <details name="acordeon2">
-                                <summary>Segunda actividad</summary>
-                                <div>
-                                Poder montar en el vehículo que más guste a cada persona.
-                                </div>
-                            </details>
+            <section>
+                <h2>·Ubicación·</h2>
+                <iframe id="mapa" src="https://www.google.com/maps?q=Fira+de+Barcelona+Gran+Via&output=embed" height="370" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Automobile Barcelona"></iframe>
+            </section>
 
-                            <details name="acordeon3">
-                                <summary>Tercera actividad</summary>
-                                <div>
-                                Conducir uno de los vehículos elegidos para pruebas.
-                                </div>
-                            </details>
-                        </th>
-                    </tr>
+            <section>
+                <h2>Preguntas frecuentes</h2>
+                <p><i>➫¿Hasta que hora están abiertos?</i></p>
+                <p>Hasta las 18:00 estamos abiertos a todo el mundo.</p>
+                <p><i>➫¿Cuál es la edad mínima para entrar?</i></p>
+                <p>No hay edad mínima para entrar ni para montarse a un coche; pero para hacer una prueba de conducción mínimo se debe tener 16 años.</p>
+            </section>
+        </main>
 
-                    <tr>
-                        <th>
-                            <h2>Entradas · Precios</h2>
-                            <label for="genero"><span class="Genero">Indique su elección:</span></label>
-                            
-                            <br>
+        <aside>
+            <h2>Noticias y datos destacados</h2>
+            <p>-Más de 100 vehículos expuestos.</p>
+            <p>-Novedades en coches eléctricos.</p>
+            <p>-Aparcamiento gratuito para los visitantes.</p>
+        </aside>
+    </div>
 
-                            <label class="GeneroPuntos">
-                            <input type="radio" name="eleccion" value="entradaIndividual">
-                            Entrada individual - 10,80€
-                            </label>
-
-                            <br>
-
-                            <label class="GeneroPuntos">
-                            <input type="radio" name="eleccion" value="entradaGrupal">
-                            Entrada grupal (2 personas) - 15,78€ (7,89€ por cabeza)
-                            </label>
-                        </th>
-                    </tr>
-
-                    <tr>
-                        <th>
-                            <h2>·Ubicación·</h2>
-                            <iframe id="mapa" src="https://www.google.com/maps?q=Fira+de+Barcelona+Gran+Via&output=embed" 
-                            width="700" height="370" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Automobile Barcelona"></iframe>
-                        </th>
-                    </tr>
-
-                    <tr>
-                        <th>
-                            <h2>Preguntas frecuentes</h2>
-                            <p><i>➫¿Hasta que hora están abiertos?</i></p>
-                            <pre>Hasta las 18:00 PM estamos abierto a todo el mundo.</pre>
-                            <p><i>➫¿Cuál es la edad mínima para entrar?</i></p>
-                            <pre>No hay edad mínima para entrar ni para montarse a un coche; 
-pero para hacer una prueba de conducción mínimo se debe tener 16 años.</pre>
-                        </th>
-                    </tr>
-                </th>    
-            </tr>
-        </table>
-        </section>
-    </main>
-
-    <br>
-
-    <aside>
-        <table border="10">
-            <tr>
-                <th>
-                    <h2>Noticias y datos destacados</h2>
-                    <p>-Más de 100 vehículos expuestos.</p>
-                    <p>-Novedades en coches eléctricos.</p>
-                    <p>-Aparcamiento gratuito para los visitantes.</p>
-                </th>
-            </tr>
-        </table>
-    </aside>
-
-    <br>
-
-     <footer>
+    <footer>
         <p>Contacto: automobarcelona@gmail.com</p>
         <p>Dirección: Fira de Barcelona, Barcelona</p>
         <p>2026 Automobile Barcelona. Todos los derechos reservados.</p>

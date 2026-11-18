@@ -25,6 +25,49 @@ nav a{
   color: white;
   text-decoration: none;
   font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.contenido{
+  display: flex;
+  gap: 10px;
+}
+
+main{
+  width: 73%;
+  background-color: rgb(216, 216, 241);
+  padding: 10px;
+  border-radius: 8px;
+}
+
+main section {
+  background-color: rgb(101, 123, 168);
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+figure {
+  background-color: rgb(115, 169, 250);
+  padding: 10px;
+  border-radius: 8px;
+  margin: 0 0 10px 0;
+}
+
+figure img {
+  max-width: 100%;
+}
+
+figure img {
+  max-width: 100%;
+}
+
+aside {
+  width: 27%;
+  background-color: rgb(224, 224, 124);
+  padding: 10px;
+  border-radius: 8px;
+  box-sizing: border-box;
 }
 
 footer{

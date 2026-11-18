@@ -1,0 +1,13 @@
+body {
+  font-family: Arial;
+}
+
+ul {
+  list-style: none;
+  color: blue;
+}
+
+li::before {
+  content: "\1F63B";
+  margin-right: 8px;
+}

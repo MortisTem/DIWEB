@@ -1,0 +1,31 @@
+/* 
+   Es la caja de la carta (.carta). Le pongo fondo crema, letra Arial, color gris, relleno y la centro.
+   El color y la letra se heredan, así que todo lo de dentro los coge solo.
+   El fondo no se hereda, solo lo tiene la caja. */
+.carta {
+    font-family: Arial, sans-serif;
+    color: #4a4a4a;
+    background-color: #fdf6ec;
+    padding: 20px;
+    width: 80%;
+    max-width: 450px;
+    margin: 30px auto;
+}
+
+/* 
+   Aplica a los p que cuelgan directamente de .carta: el café, la tarta y el donut.
+   Les pone 8px de relleno y una línea discontinua por debajo.
+   La galleta no lo coge porque está dentro del div, así que no es hijo directo. */
+.carta > p {
+    padding: 8px;
+    border-bottom: 1px dashed #dcaa7d;
+}
+
+/* 
+   Aplica a los .postre que van después de .especial y están a su mismo nivel: la tarta y el donut.
+   Los pone en rosa y en negrita.
+   La galleta no lo coge porque está dentro del div, así que no es hermana de .especial. */
+.especial ~ .postre {
+    color: #d81b60;
+    font-weight: bold;
+}

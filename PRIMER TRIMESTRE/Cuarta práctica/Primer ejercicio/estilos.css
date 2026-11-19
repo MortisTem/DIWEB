@@ -1,0 +1,16 @@
+body {
+    background-color: white;
+}
+
+.titulo {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.descripcion {
+    text-align: center;
+}
+
+.alerta {
+    text-decoration: underline;
+}

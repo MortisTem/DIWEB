@@ -1,0 +1,9 @@
+.container {
+    margin: 0 auto;
+    width: 90%;
+    max-width: 1200px;
+    background-color: rgb(226, 226, 150);
+    padding: 20px;
+    border: 5px solid orange;
+    border-color: orange rgb(121, 175, 219) orange rgb(121, 175, 219);
+}

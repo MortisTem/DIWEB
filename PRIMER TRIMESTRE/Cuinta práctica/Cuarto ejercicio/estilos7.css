@@ -1,0 +1,32 @@
+/*
+   Le pongo a la caja fondo negro, color gris al texto y letra Arial.
+   El color y la letra se heredan, así que todo lo de dentro los coge solo. */
+.contenedor-lab {
+    color: #e0e0e0;
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    padding: 25px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600px;
+}
+
+/* 
+   Le doy 15px de espacio por debajo a todo lo que cuelga directamente de la zona.
+   El span que está dentro del div no lo coge, porque no es hijo directo. */
+.zona-sujetos > * {
+    margin-bottom: 15px;
+}
+
+/* 
+   Pinta de verde, en negrita y con una rayita a la izquierda a los .mutante
+   que van después de la palanca y están a su mismo nivel.
+   RESULTADO: la primera y la tercera fila salen en verde.
+   La segunda se queda normal porque está dentro de un div y no es hermana. */
+.palanca ~ .mutante {
+    color: #00ff66;
+    font-weight: bold;
+    border-left: 4px solid #00ff66;
+    padding-left: 10px;
+    display: block;
+}

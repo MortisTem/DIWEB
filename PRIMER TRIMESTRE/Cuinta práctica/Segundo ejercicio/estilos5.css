@@ -1,0 +1,12 @@
+.pantalla-log {
+    height: 120px;
+    width: 350px;
+    overflow: auto;
+    background-color: black;
+    color: greenyellow;
+}
+
+.consola {
+    text-indent: 20px;
+    white-space: nowrap;
+}

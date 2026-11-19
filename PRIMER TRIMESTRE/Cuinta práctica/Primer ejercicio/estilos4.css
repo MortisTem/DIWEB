@@ -1,0 +1,11 @@
+body {
+    background-image: url("fondo-retro.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top center;
+}
+
+.banda {
+    word-spacing: 15px;
+    text-transform: uppercase;
+}

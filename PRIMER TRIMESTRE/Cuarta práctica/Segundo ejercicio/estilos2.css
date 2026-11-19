@@ -1,0 +1,6 @@
+.caja {
+    padding: 20px;
+    border: 10px dashed blue;
+    outline: green dotted thick;
+    margin: 30px;
+}

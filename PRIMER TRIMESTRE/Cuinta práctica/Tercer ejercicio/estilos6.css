@@ -1,0 +1,20 @@
+.centrado {
+    text-align: center;
+}
+
+.medalla {
+    padding: 15px;
+    margin: 15px auto;
+    width: 80%;
+    max-width: 400px;
+}
+
+.oro {
+    border: 6px solid gold;
+    border-top-color: darkgoldenrod;
+}
+
+.plata {
+    border: 6px solid silver;
+    border-color: gray silver lightgray dimgray;
+}
